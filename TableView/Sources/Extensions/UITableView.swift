@@ -18,9 +18,4 @@ extension UITableView {
     func register<T: UITableViewCell>(_ cellClass: T.Type) where T: NibLoadable {
         register(cellClass.nib, forCellReuseIdentifier: cellClass.reuseIdentifier)
     }
-
-    /// Register a cell for cellViewModel
-    func register(_ cellViewModel: AnyCellViewModel) {
-        register(type(of: cellViewModel).cellClass)
-    }
 }
