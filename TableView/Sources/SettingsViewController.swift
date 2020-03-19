@@ -72,7 +72,9 @@ extension SettingsViewController: UITableViewDelegate {
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let viewModel = cellViewModels[indexPath.row]
-        viewModel.onSelect?()
+        if let selectableViewModel = viewModel as? Selectable {
+            selectableViewModel.onSelect()
+        }
         tableView.deselectRow(at: indexPath, animated: true)
     }
 }

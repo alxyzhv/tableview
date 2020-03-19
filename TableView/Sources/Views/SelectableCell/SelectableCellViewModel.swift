@@ -5,12 +5,12 @@
 //  Created by Alexey Zhulikov on 18.03.2020.
 //
 
-struct SelectableCellViewModel {
+struct SelectableCellViewModel: Selectable {
 
     // MARK: - Properties
 
+    let onSelect: () -> Void
     private let title: String
-    let onSelect: (() -> Void)?
 
     // MARK: - Initialization
 

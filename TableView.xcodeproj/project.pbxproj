@@ -14,6 +14,7 @@
 		EB76FDAF241EBE5D0089DDB4 /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB76FDAE241EBE5D0089DDB4 /* Reusable.swift */; };
 		EB76FDB1241EC04B0089DDB4 /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB76FDB0241EC04B0089DDB4 /* NibLoadable.swift */; };
 		EB76FDB3241EC10C0089DDB4 /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB76FDB2241EC10C0089DDB4 /* UITableView.swift */; };
+		EBA4354C2423F3510087FC10 /* Selectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA4354B2423F3510087FC10 /* Selectable.swift */; };
 		EBE3C03E24229EBD00B8B88B /* SelectableCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE3C03D24229EBD00B8B88B /* SelectableCellViewModel.swift */; };
 		EBE3C04024229ED000B8B88B /* SwitchableCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE3C03F24229ED000B8B88B /* SwitchableCellViewModel.swift */; };
 		EBE3C04424229F0300B8B88B /* SeparatorCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE3C04324229F0300B8B88B /* SeparatorCellViewModel.swift */; };
@@ -38,6 +39,7 @@
 		EB76FDB0241EC04B0089DDB4 /* NibLoadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibLoadable.swift; sourceTree = "<group>"; };
 		EB76FDB2241EC10C0089DDB4 /* UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
 		EB8BDA0423AE9CBF00AFF82F /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		EBA4354B2423F3510087FC10 /* Selectable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Selectable.swift; sourceTree = "<group>"; };
 		EBE3C03D24229EBD00B8B88B /* SelectableCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectableCellViewModel.swift; sourceTree = "<group>"; };
 		EBE3C03F24229ED000B8B88B /* SwitchableCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchableCellViewModel.swift; sourceTree = "<group>"; };
 		EBE3C04324229F0300B8B88B /* SeparatorCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeparatorCellViewModel.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 				EB76FDAC241EBD220089DDB4 /* Configurable.swift */,
 				EB76FDB0241EC04B0089DDB4 /* NibLoadable.swift */,
 				EB76FDAE241EBE5D0089DDB4 /* Reusable.swift */,
+				EBA4354B2423F3510087FC10 /* Selectable.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 				EB76FDB1241EC04B0089DDB4 /* NibLoadable.swift in Sources */,
 				EBE3C04624229F0D00B8B88B /* InfoCellViewModel.swift in Sources */,
 				EB76FDB3241EC10C0089DDB4 /* UITableView.swift in Sources */,
+				EBA4354C2423F3510087FC10 /* Selectable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
